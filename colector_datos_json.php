@@ -31,7 +31,7 @@ $data += array("horayfecha" => $dateTimeStamp );
 $req_dump = json_encode( $data ) ;
 $data_display =  $req_dump  . "</br>";
 
-$fp = file_put_contents( 'despliegue_datos_json.html', $data_display, FILE_APPEND );  
+$fp = file_put_contents( 'index.html', $data_display, FILE_APPEND );  
 
 
 
